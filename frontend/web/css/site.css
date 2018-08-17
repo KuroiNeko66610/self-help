@@ -1,0 +1,64 @@
+.wizard-pager {
+    position: absolute;
+    width: 96%;
+    height: 100%;
+    top: 0;
+    margin-top: 25%;
+}
+
+.content{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+}
+
+.breadcrumb{
+    background-color: white;
+}
+
+.breadcrumb li a{
+    color: black;
+    font-weight: bold;
+}
+
+.breadcrumb > li + li:before {
+    color: #1a9f29;
+    content: "> ";
+    font-size: small;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.navbar-default {
+    background-color: white;
+    border: none;
+}
+
+.navbar-title{
+    font-weight: bold;
+    font-size: large;
+    margin-left: 25%;
+}
+
+.post-item{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.post-item a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.post-item a:hover{
+    text-decoration: underline;
+}
+
+.post-button{
+     color:white !important;
+     align: right;
+ }
+
+.post-button:hover{
+    text-decoration: none !important;
+}
